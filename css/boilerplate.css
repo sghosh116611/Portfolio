@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+html,
+body {
+	min-height: 100%;
+	background: #fff;
+	background-color: #03001C;
+	color: #B6EADA;
+	scroll-behavior: smooth;
+}
+
+/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}
+
+/* sets the base font size for the document; turns on kerning pairs and ligatures */
+
+body,
+ul,
+ol,
+dl {
+	margin: 0;
+}
+
+article,
+aside,
+audio,
+header,
+nav,
+section,
+video {
+	display: block;
+}
+
+/* ensures that older browsers will display HTML5 elements correctly */
+
+h1 {
+	font-size: 1.4rem;
+	font-family: Times New Roman;
+}
+
+/* begins to set up font sizes relative to base rem – h1 has been used as an example */
+
+p {
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	font-size: 0.9rem;
+	font-family: Times New Roman;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
