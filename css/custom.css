@@ -37,6 +37,7 @@ header h1:hover {
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
+  font-family: 'EB Garamond';
 }
 
 .navbar a:hover,
@@ -522,5 +523,3 @@ p {
   opacity: 1;
   visibility: visible;
 }
-
-

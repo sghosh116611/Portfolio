@@ -23,24 +23,31 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <script src="../js/custom.js"></script>
-
+    <script>
+        window.onload = function () {
+            document.querySelector(".circles-preloader").style.display = "none";
+        }
+    </script>
 
 </head>
 
 <body>
+
     <a id="top_button"></a>
+    <!-- Nav Bar -->
     <header>
 
         <h1>Soumojit Ghosh.</h1>
 
         <nav class="navbar">
-            <a href="#" class="active" style="--i:1;">Home</a>
-            <a href="#" style="--i:2;">About</a>
-            <a href="#" style="--i:3;">Portfolio</a>
-            <a href="#" style="--i:4;">Skills</a>
-            <a href="#" style="--i:5;">Contact</a>
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#projects" style="--i:3;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
         </nav>
     </header>
+
+    <!-- Social Media Links -->
     <div class="social">
 
         <div class="social-btn">
@@ -74,7 +81,7 @@
 
     <div class="main parallax">
         <!-- Header Section -->
-        <section class="hero-banner">
+        <section id="home" class="hero-banner">
             <div class="row">
                 <div class="col">
                     <article>
@@ -100,7 +107,7 @@
                 </div>
                 <div class="col d-flex justify-content-center">
                     <div class="img"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/2048px-Default_pfp.svg.png"
+                            src="../assets/Profile.jpg"
                             alt=""></div>
                 </div>
             </div>
@@ -108,7 +115,7 @@
         </section>
 
         <!-- About Me Section -->
-        <section class="about" style="margin-top: 2%; height: auto;">
+        <section id = "about" class="about" style="margin-top: 2%; height: auto;">
             <div class="about-me">
 
                 <!-- About Me Title -->
@@ -210,8 +217,10 @@
                     <div class="resume-container">
                         <div class="resume">
 
-                            <p style="font-size: 1.5rem;"> <a href="https://drive.google.com/file/d/1NZ8qNi4Bm5SXpo3PEgRlgnTEMBjOj0WJ/view?usp=sharing" target="_blank">Checkout My Resume <i
-                                        class="fa-solid fa-arrow-right fa-shake fa-sm" style="color: #b6eada;"></i></a>
+                            <p style="font-size: 1.5rem;"> <a
+                                    href="https://drive.google.com/file/d/1NZ8qNi4Bm5SXpo3PEgRlgnTEMBjOj0WJ/view?usp=sharing"
+                                    target="_blank">Checkout My Resume <i class="fa-solid fa-arrow-right fa-shake fa-sm"
+                                        style="color: #b6eada;"></i></a>
                             </p>
                             </a>
                         </div>
@@ -224,7 +233,7 @@
         </section>
 
         <!-- Portoflio -->
-        <section class="projects" style="margin-top: 2%; height: auto;">
+        <section id="projects" class="projects" style="margin-top: 2%; height: auto;">
             <div class="testimonial-slider">
                 <div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="false">
                     <div class="container-fluid">
@@ -240,7 +249,8 @@
                                     </svg>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="z-index: 101;">
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev"
+                                    style="z-index: 101;">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
@@ -263,7 +273,10 @@
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/Library-App-Backend" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/Library-App-Backend"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -281,7 +294,10 @@
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/covid19" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/covid19"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -299,7 +315,10 @@
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/budget-app" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/budget-app"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -317,7 +336,10 @@
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/chatting-app" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/chatting-app"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -335,7 +357,10 @@
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/Paridhi2020Portal" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/Paridhi2020Portal"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -349,11 +374,14 @@
                                                     class="d-block w-100" alt="..."> </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Basic Calculator</h5>
-                                                <h6 class="card-subtitle mb-2 text-muted">2022</h6>
+                                                <h6 class="card-subtitle mb-2 text-muted">2018</h6>
                                                 <div class="technology-source">
                                                     <div class="source">
                                                         <center>
-                                                            <a href="https://github.com/sghosh116611/calculator-java-swing" target="_blank">Source <i class="fa-sharp fa-regular fa-bolt-lightning fa-flip" style="color: #00ffee;"></i></a>
+                                                            <a href="https://github.com/sghosh116611/calculator-java-swing"
+                                                                target="_blank">Source <i
+                                                                    class="fa-sharp fa-regular fa-bolt-lightning fa-flip"
+                                                                    style="color: #00ffee;"></i></a>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -369,14 +397,15 @@
         </section>
 
         <!-- Let's connect -->
-        <section class="connect" style="margin-top: 2%; height: auto;">
-            <div class="jumbotron">
+        <section id="contact" class="connect" style="margin-top: 2%; height: auto;">
+            <div class="jumbotron" style="padding: 2%;">
                 <center>
 
-                    <h2>Ready to take the plunge? Reach out and let's forge bonds on my social media playground!💥💣</h2>
+                    <h2>Ready to take the plunge? Reach out and let's forge bonds on my social media playground!💥💣
+                    </h2>
                 </center>
             </div>
-            
+
         </section>
     </div>
 </body>

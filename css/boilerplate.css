@@ -58,7 +58,10 @@ video {
 
 h1 {
 	font-size: 1.4rem;
-	font-family: Times New Roman;
+}
+
+h1,h2,h3,h5{
+	font-family: "Optima";
 }
 
 /* begins to set up font sizes relative to base rem – h1 has been used as an example */
@@ -72,7 +75,8 @@ p {
 	-ms-hyphens: auto;
 	hyphens: auto;
 	font-size: 0.9rem;
-	font-family: Times New Roman;
+	font-family: 'EB Garamond';
+	word-wrap: normal;
 }
 
 a {
